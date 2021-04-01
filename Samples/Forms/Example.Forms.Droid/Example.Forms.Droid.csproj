@@ -76,6 +76,12 @@
     <AndroidAsset Include="Assets\LottieLogo1.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
+    <AndroidAsset Include="Assets\lottiefiles_com_Beating_Heart.json" />
+    <AndroidAsset Include="Assets\lottiefiles_com_Camera.json" />
+    <AndroidAsset Include="Assets\lottiefiles_com_Emoji_Shock.json" />
+    <AndroidAsset Include="Assets\lottiefiles_com_Emoji_Tongue.json" />
+    <AndroidAsset Include="Assets\lottiefiles_com_Emoji_Wink.json" />
+    <AndroidAsset Include="Assets\lottiefiles_com_Favorite_Star.json" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon.png" />
