@@ -38,5 +38,10 @@
             HorizontalOptions="FillAndExpand"
             Text="Play from Url" 
             Command="{Binding UrlCommand}"/>
+
+        <Button 
+            HorizontalOptions="FillAndExpand"
+            Text="List Example" 
+            Command="{Binding ListCommand}"/>
     </StackLayout>
 </ContentPage>

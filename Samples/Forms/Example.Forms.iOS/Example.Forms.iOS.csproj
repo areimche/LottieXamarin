@@ -99,6 +99,12 @@
     <ITunesArtwork Include="iTunesArtwork" />
     <ITunesArtwork Include="iTunesArtwork@2x" />
     <BundleResource Include="LottieLogo1.json" />
+    <BundleResource Include="lottiefiles_com_Favorite_Star.json" />
+    <BundleResource Include="lottiefiles_com_Camera.json" />
+    <BundleResource Include="lottiefiles_com_Emoji_Shock.json" />
+    <BundleResource Include="lottiefiles_com_Emoji_Tongue.json" />
+    <BundleResource Include="lottiefiles_com_Emoji_Wink.json" />
+    <BundleResource Include="lottiefiles_com_Beating_Heart.json" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />

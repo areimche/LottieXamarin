@@ -27,6 +27,10 @@ namespace Example.Forms
             {
                 Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new UrlPage());
             });
+            ListCommand = new Command(() =>
+            {
+                Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(new MyListViewPage());
+            });
         }
 
         private ICommand _assetCommand;
@@ -64,5 +68,11 @@ namespace Example.Forms
             set => Set(ref _urlCommand, value);
         }
 
+        private ICommand _listCommand;
+        public ICommand ListCommand
+        {
+            get => _listCommand;
+            set => Set(ref _listCommand, value);
+        }
     }
 }

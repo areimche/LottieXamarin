@@ -4,6 +4,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <ReleaseVersion>2.5</ReleaseVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -39,6 +40,9 @@
     </Compile>
     <Compile Update="Pages\UrlPage.xaml.cs">
       <DependentUpon>UrlPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\MyListViewPage.xaml.cs">
+      <DependentUpon>MyListViewPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
